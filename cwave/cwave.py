@@ -11,9 +11,6 @@ class cwave:
 
     DLLpath = r'C:/path.dll'
     HeaderPath = r'C:/path.h'
-    ADDR = {
-        'cwave':
-    }
 
     def __init__(self, cwave_addr):
         self.lib = windll.LoadLibrary(cwave.DLLpath)
